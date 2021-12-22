@@ -1,7 +1,13 @@
-import logo from "./logo.svg";
+import NavBar from "./Components/NavBar";
 
 function App() {
-  return <h1 className="text-3xl font-bold underline"> Hello world! </h1>;
+  return (
+    <main className="bg-black">
+      <div className="container mx-auto py-[3.75rem]">
+        <NavBar />
+      </div>
+    </main>
+  );
 }
 
 export default App;
