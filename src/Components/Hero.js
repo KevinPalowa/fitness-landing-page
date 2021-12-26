@@ -1,6 +1,7 @@
 import Button from "./Button";
 import Chip from "./Chip";
 import NavBar from "./NavBar";
+import Panel from "./Panel";
 
 export default function Hero() {
   return (
@@ -12,14 +13,8 @@ export default function Hero() {
           Cardio Exercise
         </p>
         <div className="space-y-5">
-          <div className="bg-[#1a1a1a] px-7 py-5 rounded-[1.25rem]">
-            <p className="text-4xl font-semibold text-[#ffe642]">38:14</p>
-            <p className="text-sm">TIME</p>
-          </div>
-          <div className="bg-[#1a1a1a] px-7 py-5 rounded-[1.25rem]">
-            <p className="text-4xl font-semibold text-[#FB1351]">165</p>
-            <p className="text-sm">EST Calories</p>
-          </div>
+          <Panel main="38:14" color="#ffe642" secondary="TIME" />
+          <Panel main="165" color="#FB1351" secondary="EST Calories" />
         </div>
       </div>
       <img
