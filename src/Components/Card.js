@@ -5,7 +5,7 @@ export default function Card({ title, duration, calories, img }) {
     <div className="relative">
       <img
         alt={title}
-        className="w-full rounded-xl  h-[250px]"
+        className="w-full object-cover object-top rounded-xl  h-[250px]"
         src={`/img/${img}`}
       />
       <div className="pl-5 z-10 font-semibold flex flex-col w-full relative -top-8 space-y-4">
