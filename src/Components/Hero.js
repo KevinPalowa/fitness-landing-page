@@ -8,7 +8,7 @@ export default function Hero() {
     <>
       <NavBar />
       <Chip />
-      <div className="flex mt-8">
+      <div className="flex relative mt-8">
         <p className="font-semibold text-[200px] text-white tracking-tight leading-[10.625rem]">
           Cardio Exercise
         </p>
@@ -16,11 +16,11 @@ export default function Hero() {
           <Panel main="38:14" color="#ffe642" secondary="TIME" />
           <Panel main="165" color="#FB1351" secondary="EST Calories" />
         </div>
+        <img
+          className="absolute -top-[280px] right-0"
+          src="/img/img_ccexpress.png"
+        />
       </div>
-      <img
-        className="absolute right-[31px] top-[21px]"
-        src="/img/img_ccexpress.png"
-      />
       {/* <div className="bg-hero w-full h-[2000px]"></div> */}
       <p className="opacity-70 mt-12 w-5/12">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
