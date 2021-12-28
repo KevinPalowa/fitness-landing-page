@@ -1,17 +1,23 @@
 import React from "react";
+import Button from "./Button";
 
 export default function Trainer() {
   return (
-    <div className="flex justify-between">
-      <p className="w-3/12 font-semibold text-[120px] tracking-tight leading-[120px]">
-        Workout Program Made For You
-      </p>
-      <p className="opacity-70 w-6/12 text-2xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-        consectetur, est, neque aliquid recusandae quia aliquam quis libero
-        itaque, hic mollitia repellendus pariatur eos vel rerum maiores tenetur
-        aut eligendi?
-      </p>
+    <div className="flex justify-between mt-[11.875rem]">
+      <div className="w-5/12">
+        <p className="font-semibold z-10 relative text-[120px] tracking-tight leading-[120px]">
+          Workout Program Made For You
+        </p>
+        <img className="relative -left-7 bottom-28" src="/img/art.png" />
+      </div>
+      <div className="w-5/12 space-y-12">
+        <p className="opacity-70 text-2xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur
+          adipiscing.
+        </p>
+        <Button bg="#25ab75">Get Started</Button>
+      </div>
     </div>
   );
 }

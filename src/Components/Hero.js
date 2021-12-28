@@ -15,11 +15,11 @@ export default function Hero() {
         <div className="space-y-5">
           <Panel main="38:14" color="#ffe642" secondary="TIME" />
           <Panel main="165" color="#FB1351" secondary="EST Calories" />
+          <img
+            className="absolute -top-[280px] right-0"
+            src="/img/img_ccexpress.png"
+          />
         </div>
-        <img
-          className="absolute -top-[280px] right-0"
-          src="/img/img_ccexpress.png"
-        />
       </div>
       {/* <div className="bg-hero w-full h-[2000px]"></div> */}
       <p className="opacity-70 mt-12 w-5/12">
