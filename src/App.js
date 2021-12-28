@@ -1,4 +1,5 @@
 import Hero from "./Components/Hero";
+import Lists from "./Components/Lists";
 import PopularSection from "./Components/PopularSection";
 import Trainer from "./Components/Trainer";
 function App() {
@@ -8,6 +9,7 @@ function App() {
         <Hero />
         <PopularSection />
         <Trainer />
+        <Lists />
       </div>
     </main>
   );
