@@ -32,7 +32,7 @@ export default function Trainer() {
   return (
     <>
       <div className="relative mt-[11.875rem] pt-[100px] h-[733px]">
-        <div className="flex justify-between ">
+        <div className="flex relative z-10 justify-between ">
           <div className="w-5/12">
             <p className="font-semibold z-10 relative text-[120px] tracking-tight leading-[120px]">
               Workout Program Made For You
@@ -45,7 +45,9 @@ export default function Trainer() {
               eiusmod tempor incididunt ut labore et dolore magna aliqua
               consectetur adipiscing.
             </p>
-            <Button bg="#25ab75">Get Started</Button>
+            <Button className="bg-[#25ab75] hover:bg-emerald-600">
+              Get Started
+            </Button>
           </div>
         </div>
         <div className="bg-white/10 w-full absolute -right-1/4 top-0 h-full overflow-hidden"></div>

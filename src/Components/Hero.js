@@ -27,8 +27,10 @@ export default function Hero() {
         tempor incididunt ut labore et dolore magna aliqua.
       </p>
       <div className="flex space-x-7 mt-12">
-        <Button bg="#25ab75">Get Started</Button>
-        <Button bg="#191919">Preview</Button>
+        <Button className="bg-[#25ab75] hover:bg-emerald-600">
+          Get Started
+        </Button>
+        <Button className="bg-[#191919] hover:bg-zinc-800">Preview</Button>
       </div>
     </>
   );

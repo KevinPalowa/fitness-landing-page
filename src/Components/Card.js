@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Card({ title, duration, calories, img }) {
   return (
-    <div className="relative">
+    <div className="relative hover:scale-110 transition-all cursor-pointer">
       <img
         alt={title}
         className="w-full object-cover object-top rounded-xl  h-[250px]"
