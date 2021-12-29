@@ -15,6 +15,7 @@ export default function Cards() {
       {data.map((data) => {
         return (
           <Card
+            key={data.title}
             title={data.title}
             duration={data.duration}
             calories={data.calories}

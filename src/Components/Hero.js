@@ -13,15 +13,15 @@ export default function Hero() {
           Cardio Exercise
         </p>
         <div className="space-y-5">
-          <Panel main="38:14" color="#ffe642" secondary="TIME" />
-          <Panel main="165" color="#FB1351" secondary="EST Calories" />
+          <Panel main="38:14" color="text-[#ffe642]" secondary="TIME" />
+          <Panel main="165" color="text-[#fb1351]" secondary="EST Calories" />
           <img
+            alt="hero image"
             className="absolute -top-[280px] right-0"
             src="/img/img_ccexpress.png"
           />
         </div>
       </div>
-      {/* <div className="bg-hero w-full h-[2000px]"></div> */}
       <p className="opacity-70 mt-12 w-5/12">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.
