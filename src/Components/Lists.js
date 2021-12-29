@@ -1,7 +1,7 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
 export default function Lists() {
   return (
-    <div>
+    <div className="mt-[140px]">
       <ol className="divide-y-2 divide-slate-200/40">
         <li className="py-12 flex items-center justify-between">
           <p className="opacity-40 font-semibold text-2xl">01</p>
